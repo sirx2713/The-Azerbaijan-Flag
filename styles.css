@@ -1,0 +1,29 @@
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-container > #blue-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #0092BC;
+}
+#main-container > #red-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 1200px;
+    background-color: #E4002B;
+}
+#main-container > #green-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #00AF66;
+}
